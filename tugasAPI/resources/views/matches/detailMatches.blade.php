@@ -1,5 +1,7 @@
 @extends('layout.main')
 
+@section('title', 'Match Detail')
+
 @section('span','Match Detail')
 
 
@@ -7,7 +9,7 @@
 <div class="container">
     <div class="row justify-content-center align-items-center" style="margin-top: 40px;">
         <div class="card border-o col-md-10 text-center ">
-            <div class="card-header" >
+            <div class="card-header" style="background-color: transparent" >
                 <h5 class="card-title">
                     Team Statistics
                 </h5>

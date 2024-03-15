@@ -110,8 +110,8 @@ a.sidebar-link{
 }
 
 a.sidebar-link:hover{
-    background-color: #84cc16;
-    border-left: 5px solid #15803d;
+    background-color: #3b82f6;
+    border-left: 5px solid #1e40af;
     transition: .5s;
     color: #fff;
 }
@@ -160,6 +160,6 @@ a.sidebar-link:hover{
 
 #hamburger-logo:hover{
     color: #fff;
-    background-color: #84cc16;
+    background-color: #3b82f6;
     transition: .25s;
 }

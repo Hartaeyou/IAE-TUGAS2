@@ -15,7 +15,7 @@
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/standings" class="sidebar-link">
                 <svg width="25" height="25" viewBox="0 0 48 48" fill="currentColor" x="128" y="128" role="img" style="display:inline-block;vertical-align:middle;background-color:transparent" xmlns="http://www.w3.org/2000/svg"><g fill="currentColor"><mask id="ipTRankingList0"><g fill="none" stroke="#fff" stroke-width="4"><path fill="#555" d="M42 8H6a2 2 0 0 0-2 2v28a2 2 0 0 0 2 2h36a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2Z"/><path stroke-linecap="round" d="M24 17v14m8-7v7m-16-9v9"/></g></mask><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTRankingList0)"/></g></svg>              
                 <span>Standings</span>
             </a>

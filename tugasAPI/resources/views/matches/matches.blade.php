@@ -1,7 +1,8 @@
 @extends('layout.main')
 
-@section('span','Match Results')
+@section('title','Match Results')
 
+@section('span','Match Results')
 
 @section('content')
 <div class="container">

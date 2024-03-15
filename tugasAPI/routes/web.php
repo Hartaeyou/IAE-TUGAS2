@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\matchesController;
+use App\Http\Controllers\standingsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,9 @@ use App\Http\Controllers\matchesController;
 |
 */
 
-
+// match Controller
 Route::get('/', [matchesController::class, 'matches']);
 Route::get('matchDetails/{id}', [matchesController::class, 'matchDetails'])->name('matchDetails');
+
+// standings controller
+Route::get('/standings', [standingsController::class, 'standings'])->name('standings');

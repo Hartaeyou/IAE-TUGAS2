@@ -11,7 +11,7 @@ class matchesController extends Controller
 {
     public function matches (Request $request)
     {
-        $response = Http::get('https://apiv3.apifootball.com/?action=get_events&from=2023-03-20&to=2023-04-05&league_id=152&APIkey=64ec71ef6fd9f638c4f93d95e89583fc0f67d5bae07ccc649bf66eb45b240006');
+        $response = Http::get('https://apiv3.apifootball.com/?action=get_events&from=2023-03-05&to=2023-04-05&league_id=152&APIkey=64ec71ef6fd9f638c4f93d95e89583fc0f67d5bae07ccc649bf66eb45b240006');
         $responseData=$response->json();
 
         $currentPage = $request->input('page', 1);
@@ -31,7 +31,7 @@ class matchesController extends Controller
 
     public function matchDetails($id)
     {
-        $response=Http::get("https://apiv3.apifootball.com/?action=get_events&league_id=152&APIkey=64ec71ef6fd9f638c4f93d95e89583fc0f67d5bae07ccc649bf66eb45b240006&from=2023-03-20&to=2023-04-05&match_id=$id");
+        $response=Http::get("https://apiv3.apifootball.com/?action=get_events&league_id=152&APIkey=64ec71ef6fd9f638c4f93d95e89583fc0f67d5bae07ccc649bf66eb45b240006&from=2023-03-05&to=2023-04-05&match_id=$id");
         $responseData=$response->json();
         foreach($responseData as $data){
             $array = $data['statistics'];
