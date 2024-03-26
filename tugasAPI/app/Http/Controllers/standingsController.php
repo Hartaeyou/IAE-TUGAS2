@@ -11,7 +11,7 @@ class StandingsController extends Controller
 {
     public function standings(Request $request)
     {
-        $response = Http::get('https://apiv3.apifootball.com/?action=get_standings&league_id=152&APIkey=64ec71ef6fd9f638c4f93d95e89583fc0f67d5bae07ccc649bf66eb45b240006');
+        $response = Http::get('https://apiv3.apifootball.com/?action=get_standings&league_id=152&APIkey=cccc5fb4e86b9e7e606e690a90464eb123484f9ddfa22f5ea16e7a6e3cba5810');
         $responseData = $response->json();
 
         $currentPage = $request->input('page', 1);
